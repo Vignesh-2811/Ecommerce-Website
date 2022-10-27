@@ -23,12 +23,7 @@ if(isset($_POST['register_btn']))
     }
     else
     {
-        // $allowed_domains = array("svce.ac.in");
-        // $email_domain = array_pop(explode("@", $email));
-        // if(!in_array($email_domain, $allowed_domains)) {
-        //     // Not an authorised email 
-        // 
-        // }
+        
 
         if($password == $cpassword)
         {
